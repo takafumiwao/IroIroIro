@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68FE603C0C489111C7D58011 /* Pods_IroIroIro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DB28CB631E9963A2BAFCD3 /* Pods_IroIroIro.framework */; };
+		AC4550462363C02300D572B6 /* CameraImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4550452363C02300D572B6 /* CameraImageViewController.swift */; };
+		AC4550492363C5C500D572B6 /* ColorNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4550482363C5C500D572B6 /* ColorNumberViewController.swift */; };
+		AC45504B23654E7F00D572B6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45504A23654E7F00D572B6 /* CameraViewController.swift */; };
+		AC669D91235C50D600AEF59A /* ColorFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC669D90235C50D600AEF59A /* ColorFavoriteViewController.swift */; };
+		AC669D94235C6BFD00AEF59A /* FavoriteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC669D93235C6BFD00AEF59A /* FavoriteDetailViewController.swift */; };
 		AC88EF352354B7D200077F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88EF342354B7D200077F61 /* AppDelegate.swift */; };
 		AC88EF372354B7D200077F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88EF362354B7D200077F61 /* SceneDelegate.swift */; };
 		AC88EF392354B7D200077F61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88EF382354B7D200077F61 /* ViewController.swift */; };
 		AC88EF3C2354B7D200077F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC88EF3A2354B7D200077F61 /* Main.storyboard */; };
 		AC88EF3E2354B7D300077F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC88EF3D2354B7D300077F61 /* Assets.xcassets */; };
 		AC88EF412354B7D300077F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC88EF3F2354B7D300077F61 /* LaunchScreen.storyboard */; };
+		AC88EF4A2354C92B00077F61 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88EF492354C92B00077F61 /* Color.swift */; };
+		AC88EF4E2355C9B900077F61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC88EF4D2355C9B900077F61 /* GoogleService-Info.plist */; };
+		AC88EF532355D25800077F61 /* loadedFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88EF522355D25800077F61 /* loadedFirebase.swift */; };
+		ACEDC401236E919A009E8FE7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDC400236E919A009E8FE7 /* FirstViewController.swift */; };
+		ACFCAE70235B2F8B0059222F /* EnhancedCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCAE6F235B2F8B0059222F /* EnhancedCircleImageView.swift */; };
+		ACFCF890235C2766000F6D77 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCF88F235C2766000F6D77 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27DB28CB631E9963A2BAFCD3 /* Pods_IroIroIro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IroIroIro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AF97D9726B1858BC71BCB1 /* Pods-IroIroIro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IroIroIro.release.xcconfig"; path = "Target Support Files/Pods-IroIroIro/Pods-IroIroIro.release.xcconfig"; sourceTree = "<group>"; };
+		AC4550452363C02300D572B6 /* CameraImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImageViewController.swift; sourceTree = "<group>"; };
+		AC4550482363C5C500D572B6 /* ColorNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNumberViewController.swift; sourceTree = "<group>"; };
+		AC45504A23654E7F00D572B6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AC669D90235C50D600AEF59A /* ColorFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFavoriteViewController.swift; sourceTree = "<group>"; };
+		AC669D93235C6BFD00AEF59A /* FavoriteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailViewController.swift; sourceTree = "<group>"; };
 		AC88EF312354B7D200077F61 /* IroIroIro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IroIroIro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC88EF342354B7D200077F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC88EF362354B7D200077F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,13 @@
 		AC88EF3D2354B7D300077F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC88EF402354B7D300077F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC88EF422354B7D300077F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC88EF492354C92B00077F61 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AC88EF4D2355C9B900077F61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC88EF522355D25800077F61 /* loadedFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadedFirebase.swift; sourceTree = "<group>"; };
+		ACEDC400236E919A009E8FE7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ACFCAE6F235B2F8B0059222F /* EnhancedCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCircleImageView.swift; sourceTree = "<group>"; };
+		ACFCF88F235C2766000F6D77 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		D5FF3B654401175B2966E67D /* Pods-IroIroIro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IroIroIro.debug.xcconfig"; path = "Target Support Files/Pods-IroIroIro/Pods-IroIroIro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FE603C0C489111C7D58011 /* Pods_IroIroIro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8478E2E9B71ECEBC7C504045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5FF3B654401175B2966E67D /* Pods-IroIroIro.debug.xcconfig */,
+				34AF97D9726B1858BC71BCB1 /* Pods-IroIroIro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC4550442363C00E00D572B6 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AC4550452363C02300D572B6 /* CameraImageViewController.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		AC4550472363C5B700D572B6 /* ColorNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AC4550482363C5C500D572B6 /* ColorNumberViewController.swift */,
+			);
+			path = ColorNumber;
+			sourceTree = "<group>";
+		};
+		AC45504C23654E8900D572B6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AC45504A23654E7F00D572B6 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		AC669D92235C6BE700AEF59A /* FavoriteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AC669D93235C6BFD00AEF59A /* FavoriteDetailViewController.swift */,
+			);
+			path = FavoriteDetail;
+			sourceTree = "<group>";
+		};
 		AC88EF282354B7D200077F61 = {
 			isa = PBXGroup;
 			children = (
 				AC88EF332354B7D200077F61 /* IroIroIro */,
 				AC88EF322354B7D200077F61 /* Products */,
+				8478E2E9B71ECEBC7C504045 /* Pods */,
+				D3E66FAE6BEE4478156C833A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +128,80 @@
 			children = (
 				AC88EF342354B7D200077F61 /* AppDelegate.swift */,
 				AC88EF362354B7D200077F61 /* SceneDelegate.swift */,
-				AC88EF382354B7D200077F61 /* ViewController.swift */,
+				AC88EF482354C91300077F61 /* Model */,
+				ACFCF88B235C26F1000F6D77 /* View */,
 				AC88EF3A2354B7D200077F61 /* Main.storyboard */,
 				AC88EF3D2354B7D300077F61 /* Assets.xcassets */,
 				AC88EF3F2354B7D300077F61 /* LaunchScreen.storyboard */,
 				AC88EF422354B7D300077F61 /* Info.plist */,
+				AC88EF4D2355C9B900077F61 /* GoogleService-Info.plist */,
 			);
 			path = IroIroIro;
+			sourceTree = "<group>";
+		};
+		AC88EF482354C91300077F61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC88EF492354C92B00077F61 /* Color.swift */,
+				AC88EF522355D25800077F61 /* loadedFirebase.swift */,
+				ACFCAE6F235B2F8B0059222F /* EnhancedCircleImageView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACEDC3FF236E9189009E8FE7 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDC400236E919A009E8FE7 /* FirstViewController.swift */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		ACFCF88B235C26F1000F6D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDC3FF236E9189009E8FE7 /* FirstView */,
+				AC45504C23654E8900D572B6 /* Camera */,
+				AC4550472363C5B700D572B6 /* ColorNumber */,
+				AC4550442363C00E00D572B6 /* ImageView */,
+				AC669D92235C6BE700AEF59A /* FavoriteDetail */,
+				ACFCF88E235C274A000F6D77 /* ColorFavorite */,
+				ACFCF88D235C2737000F6D77 /* ColorDetailView */,
+				ACFCF88C235C2714000F6D77 /* ColorCollectionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACFCF88C235C2714000F6D77 /* ColorCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AC88EF382354B7D200077F61 /* ViewController.swift */,
+			);
+			path = ColorCollectionView;
+			sourceTree = "<group>";
+		};
+		ACFCF88D235C2737000F6D77 /* ColorDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCF88F235C2766000F6D77 /* ColorDetailViewController.swift */,
+			);
+			path = ColorDetailView;
+			sourceTree = "<group>";
+		};
+		ACFCF88E235C274A000F6D77 /* ColorFavorite */ = {
+			isa = PBXGroup;
+			children = (
+				AC669D90235C50D600AEF59A /* ColorFavoriteViewController.swift */,
+			);
+			path = ColorFavorite;
+			sourceTree = "<group>";
+		};
+		D3E66FAE6BEE4478156C833A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DB28CB631E9963A2BAFCD3 /* Pods_IroIroIro.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC88EF452354B7D300077F61 /* Build configuration list for PBXNativeTarget "IroIroIro" */;
 			buildPhases = (
+				AFA57D2E61903DE3C887F47D /* [CP] Check Pods Manifest.lock */,
 				AC88EF2D2354B7D200077F61 /* Sources */,
 				AC88EF2E2354B7D200077F61 /* Frameworks */,
 				AC88EF2F2354B7D200077F61 /* Resources */,
+				90029126280CC52AC1FB949E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC88EF412354B7D300077F61 /* LaunchScreen.storyboard in Resources */,
+				AC88EF4E2355C9B900077F61 /* GoogleService-Info.plist in Resources */,
 				AC88EF3E2354B7D300077F61 /* Assets.xcassets in Resources */,
 				AC88EF3C2354B7D200077F61 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +273,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90029126280CC52AC1FB949E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IroIroIro/Pods-IroIroIro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IroIroIro/Pods-IroIroIro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IroIroIro/Pods-IroIroIro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA57D2E61903DE3C887F47D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IroIroIro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC88EF2D2354B7D200077F61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4550492363C5C500D572B6 /* ColorNumberViewController.swift in Sources */,
 				AC88EF392354B7D200077F61 /* ViewController.swift in Sources */,
+				AC88EF4A2354C92B00077F61 /* Color.swift in Sources */,
 				AC88EF352354B7D200077F61 /* AppDelegate.swift in Sources */,
+				AC88EF532355D25800077F61 /* loadedFirebase.swift in Sources */,
+				ACEDC401236E919A009E8FE7 /* FirstViewController.swift in Sources */,
+				AC45504B23654E7F00D572B6 /* CameraViewController.swift in Sources */,
 				AC88EF372354B7D200077F61 /* SceneDelegate.swift in Sources */,
+				AC669D94235C6BFD00AEF59A /* FavoriteDetailViewController.swift in Sources */,
+				ACFCAE70235B2F8B0059222F /* EnhancedCircleImageView.swift in Sources */,
+				AC669D91235C50D600AEF59A /* ColorFavoriteViewController.swift in Sources */,
+				ACFCF890235C2766000F6D77 /* ColorDetailViewController.swift in Sources */,
+				AC4550462363C02300D572B6 /* CameraImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +474,7 @@
 		};
 		AC88EF462354B7D300077F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FF3B654401175B2966E67D /* Pods-IroIroIro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +493,7 @@
 		};
 		AC88EF472354B7D300077F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AF97D9726B1858BC71BCB1 /* Pods-IroIroIro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
